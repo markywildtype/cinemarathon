@@ -7,8 +7,8 @@
         class="base-select-option"
         v-for="option in options"
         :key="option.id"
-        :value="option.id"
-        >{{ option.name }}</option
+        :value="option.value"
+        >{{ option.display }}</option
       >
     </select>
   </div>
@@ -41,9 +41,5 @@ export default {
   font-size: 1rem;
   height: 2em;
   border: 2px solid red;
-}
-
-.base-select-option {
-  height: 2em;
 }
 </style>

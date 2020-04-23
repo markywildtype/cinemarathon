@@ -1,0 +1,73 @@
+{
+    "cinemaOptions": [
+        { "id": 1, "value": 1, "display": "Cineworld" },
+        { "id": 2, "value": 2, "display": "Cameo" },
+        { "id": 3, "value": 3, "display": "Filmhouse" },
+        { "id": 4, "value": 4, "display": "Odeon (Lothian Road)" },
+        { "id": 5, "value": 5, "display": "Vue (Omni Centre)" }
+    ],
+    "listings": [
+        {
+          "id": 1,
+          "listings": [
+            {
+              "id": 1,
+              "name": "A Quiet Place Part II",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]
+            },
+            {
+              "id": 2,
+              "name": "EMMA!",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            },
+            {
+              "id": 3,
+              "name": "Mimizzeria",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "listings": [
+            {
+              "id": 1,
+              "name": "Trolls: World Tour",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            },
+            {
+              "id": 2,
+              "name": "My GOD!",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            },
+            {
+              "id": 3,
+              "name": "Chips please Mr. Bum!",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "listings": [
+            {
+              "id": 1,
+              "name": "My bum is itchy",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            },
+            {
+              "id": 2,
+              "name": "Where is my mind?",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            },
+            {
+              "id": 3,
+              "name": "Dobby and the golden sock",
+              "times": ["11:00", "13:20", "15:30", "18:00", "20.45"]            
+            }
+          ]
+        }
+      ]
+}
+
+    
