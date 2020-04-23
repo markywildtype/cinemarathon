@@ -1,4 +1,4 @@
-# cinemarathon-take-2
+# Cinemarathon
 
 ## Project setup
 ```
