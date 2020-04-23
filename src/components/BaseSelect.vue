@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="base-select">
     <label v-if="label" for="base-select">{{ label }}</label>
     <select name="base-select" id="base-select" @change="onSelectChanged">
       <option disabled selected value> -- select an option -- </option>
@@ -35,6 +35,16 @@ export default {
 </script>
 
 <style scoped>
+.base-select {
+  margin: auto;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
 #base-select {
   background-color: white;
   font-family: 'Rubik', sans-serif;

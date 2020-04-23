@@ -13,8 +13,7 @@
 
 <style>
 #app {
-  background-color: black;
-  height: 100vh;
+  height: 100%;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   font-weight: lighter;

@@ -11,6 +11,7 @@
       label="Choose your date: "
       @value-selected="setSelectedDate"
     />
+    <!-- This bit should be in the listings component -->
     <div class="listings-display" v-if="selectedCinemaId">
       <div v-for="listing in listings" :key="listing.id">
         <h1>{{ listing.name }}</h1>
