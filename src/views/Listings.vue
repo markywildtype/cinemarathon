@@ -1,6 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>
+      Listings by
+      <span class="red-text">cinema</span>
+    </h1>
     <screenings-select
       :cinema-options="cinemaOptions"
       :date-options="formattedDates"

@@ -23,7 +23,7 @@ export default {
     },
     formattedDates() {
       return this.dates.map((date, index) => {
-        return { id: index, value: date, display: format(date, 'E Mo LLLL') }
+        return { id: index, value: date, display: format(date, 'E do LLLL') }
       })
     }
   },
