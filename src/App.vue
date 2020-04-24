@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/listings">Cinema Listings</router-link> |
+      <h1>
+        Cine<span class="red-text">Marathon</span> <i class="fas fa-film"></i>
+      </h1>
+      <router-link to="/">Home</router-link>
+      <router-link to="/listings">Cinema Listings</router-link>
       <router-link to="/planner">Marathon Planner</router-link>
     </div>
     <transition appear name="slide-fade" mode="out-in">
@@ -27,22 +30,37 @@
   color: red;
 }
 
+i {
+  transform: rotate(20deg);
+}
+
 #nav {
   padding: 30px;
+  display: inline;
+}
+
+#nav h1 {
+  font-size: 3rem;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: darkred;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: red;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: red;
 }
 
 .slide-fade-enter {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateY(-30px);
 }
 .slide-fade-enter-active,
 .slide-fade-leave-active {
@@ -50,6 +68,6 @@
 }
 .slide-fade-leave-to {
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateY(30px);
 }
 </style>
