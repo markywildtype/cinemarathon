@@ -1,8 +1,7 @@
 <template>
   <div class="base-select">
-    <label v-if="label" for="base-select">{{ label }}</label>
     <select name="base-select" id="base-select" @change="onSelectChanged">
-      <option disabled selected value> -- select an option -- </option>
+      <option disabled selected> --{{ label }}-- </option>
       <option
         class="base-select-option"
         v-for="option in options"
@@ -36,20 +35,22 @@ export default {
 
 <style scoped>
 .base-select {
-  margin: auto;
+  margin: 1em auto;
   width: 50%;
 }
 
-label {
-  display: block;
-  margin: 0.5em 0;
-}
-
 #base-select {
-  background-color: white;
+  background-color: black;
+  color: white;
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   height: 2em;
   border: 2px solid red;
+  width: 200px;
+}
+
+option {
+  margin: auto;
+  justify-content: center;
 }
 </style>

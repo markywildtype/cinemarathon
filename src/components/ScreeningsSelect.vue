@@ -2,12 +2,12 @@
   <div>
     <base-select
       :options="cinemaOptions"
-      label="Choose your cinema: "
+      label=" Choose a cinema "
       @value-selected="setSelectedCinema"
     />
     <base-select
       :options="dateOptions"
-      label="Choose your date: "
+      label="- Choose a date -"
       @value-selected="setSelectedDate"
     />
   </div>
